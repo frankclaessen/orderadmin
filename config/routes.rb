@@ -1,4 +1,12 @@
 OrderAdmin::Application.routes.draw do
+  resources :customers
+
+  resources :products
+
+  resources :order_details
+
+  resources :orders
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
